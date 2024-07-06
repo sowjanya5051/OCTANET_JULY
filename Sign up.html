@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form{
+            border: 1px solid rgba(255, 0, 0, 0.078);
+            width: 28%;
+            height: 50%;
+            padding: 10px;
+            margin: 5%;
+            background-color: rgba(255, 0, 0, 0.078);
+        }
+        .form h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+        }
+        .form p{
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .checkbox{
+            display: flex;
+            color: white;
+            justify-content: center;
+        }
+        .fn,.ln,.mail,.phn{
+            padding: 10px;
+            width: 87%;
+            margin-top: 10px;
+        }
+        .btn1{
+            margin-top: 10px;
+            padding: 12px;
+            width: 92%;
+            background-color: rgba(77, 10, 77, 0.874);
+            border: black;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        .form .btn1:hover{
+            cursor: pointer;
+        }
+        .checkbox h3{
+            font-size: 20px;
+        }
+        .foot{
+            color: white;
+            justify-content: left;
+        }
+        .foot a{
+            color: rgba(169, 66, 169, 0.934);
+        }
+        .p1 a{
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    body{
+        background-image: url('29.jpg');
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <center>
+            <div class="form">
+                <h1>SIGN UP</h1><br>
+                <p>Quickly find your favourite products, saved addresses and</p>
+                <p>payment methods!</p>
+                <p>Register to join the Glam Squad and earn 2000 glam points</p><br>
+                <p class="p1">ALREADY A MEMBER? <a href="signin.html">LOGIN</a><br>
+                <input type="text" placeholder="*First name" class="fn" required><br>
+                <input type="text" placeholder="*Last name" class="ln" required><br>
+                <input type="email" placeholder="*Email" class="mail" required><br>
+                <input type="text" placeholder="*Phone no" class="phn" required><br>
+                <div class="checkbox">
+                   <input type="checkbox"><h3>I'm not a robot</h3>       
+                </div>
+                <button type="submit" class="btn1">GET OTP</button><br>
+                <div class="foot">
+                    <input type="checkbox" clas="box1">
+                        <p>I agree to recieving marketing communications from the
+                        <a href="https://www.hul.co.in/brands/">Trusted Unilever Brands</a>. By proceeding, I agree to the HUL</p>
+                        <a href="#">T&C</a> & <a href="#">Privacy</a> Notice.</h3></p>
+                </div>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
